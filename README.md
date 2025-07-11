@@ -21,3 +21,9 @@ Then we register services in Program.cs:
 After which we can safely use it in the code!
 
 ![example](https://github.com/yokohama-spirit/MangoCache/raw/main/src/picts/example.png)
+
+## SOME CONDITIONS!!!
+
+The value parameter, due to serialization using MessagePack, can cause inconvenience for the same classes, which will have to be marked as [MessagePackObject], and also have their properties numbered, otherwise serialization will not occur correctly.
+
+![entity](https://github.com/yokohama-spirit/MangoCache/raw/main/src/picts/entity.png)
