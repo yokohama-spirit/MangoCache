@@ -7,7 +7,7 @@
 
 
 		<PackageId>MangoCache.Client</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Leva</Authors>
 		<Description>A fairly lightweight analogue of Redis with simple data caching logic, providing convenient and compact functionality.</Description>
 		<PackageTags>cache, mangocache, distributed, memory</PackageTags>

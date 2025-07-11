@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MangoCache.Nuget
+namespace MangoCache.Client
 {
     public static class ServiceCollectionExtensions
     {
