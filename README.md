@@ -12,7 +12,7 @@ In addition to the comfortable client, there is also a Core part, which gives yo
 First, install the packages needed for work:
 
 ![client](https://github.com/yokohama-spirit/MangoCache/raw/main/src/picts/install_client.png)
-![core](https://github.com/yokohama-spirit/MangoCache/raw/main/src/picts/install_client.png)
+![core](https://github.com/yokohama-spirit/MangoCache/raw/main/src/picts/install_core.png)
 
 Then we register services in Program.cs:
 
