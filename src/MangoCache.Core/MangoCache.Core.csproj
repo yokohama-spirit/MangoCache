@@ -1,27 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+		<PackageId>MangoCache.Core</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Leva</Authors>
+		<Description>Core library for MangoCache.</Description>
+		<PackageTags>cache, mangocache, distributed, memory</PackageTags>
+		<RepositoryUrl>https://github.com/yokohama-spirit/MangoCache</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/yokohama-spirit/MangoCache/blob/main/README.md</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
+		<PackageIconUrl>https://cdn.corenexis.com/media?z14bus&amp;2160H&amp;p&amp;b&amp;ktqj.png</PackageIconUrl>
+	</PropertyGroup>
 
-	  <PackageId>MangoCache.Core</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>Leva</Authors>
-	  <Description>Core library for MangoCache.</Description>
-	  <PackageTags>cache, mangocache, distributed, memory</PackageTags>
-	  <RepositoryUrl>https://github.com/yokohama-spirit/MangoCache</RepositoryUrl>
-	  <PackageProjectUrl>https://github.com/yokohama-spirit/MangoCache/blob/main/README.md</PackageProjectUrl>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <IncludeSymbols>true</IncludeSymbols>
-	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MessagePack" Version="3.1.4" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.7" />
-  </ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="MessagePack" Version="3.1.4" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.7" />
+	</ItemGroup>
 </Project>
